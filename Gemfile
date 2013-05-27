@@ -6,6 +6,9 @@ gem 'pg', '0.12.2'
 group :development, :test do
 #  gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.11.0'
+  gem 'spork-rails', github: 'railstutorial/spork-rails'
+  gem 'guard-spork', '1.5.0'
+  gem 'childprocess', '0.3.6'
 end
 
 # Gems used only for assets and not required
